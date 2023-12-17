@@ -121,34 +121,34 @@ Commands:
 
   ## Question 2
 
-How to work with multiple terminals open?
- By right-click on the desktop or a file manager window and choose "Open Terminal" to open a terminal in the current directory. In one terminal you can keep using the commands and the other terminal you can use the ls command to help ensure a user is on the right track with the proper directory.
-How to work with manual pages?
-* first input man ls
-* then use spacebar to navigate to other pages
-* hit / to search then type search term and press Enter
-* press 'q' to exit manual page.
-How to parse (search) for specific words in the manual page?
-* press / to search desired term
-* then press enter to find term
-How to redirect output (> and |)?
-* Use the > operator to redirect  the output of a command to a file.  Example: ls > file_list.txt
-* Use the | operator to  send the output of one command as input to another command. Example: ls | grep "txt"
-* Then by combining both > and | together to redirect the output of a command and then pipe it to another command. Example: ls -l > file_details.txt
-How to append the output of a command to a file?
- To append the output of a command to a file, you can use the >> operator. This operator appends the output to the specified file. Example: command >> output.txt. 
-How to use wildcards (For copying and moving multiple files at the same time)?
-* Use cp command
-* Use curly brackets {}, or regular brackets ()
-* in brackets input file(s)
-* Seperate wildcard input inside a brack with commas, and can also have multiple brackets.
-* this should move multiple files 
-* Example: cp {*.doc,*.pdf} ~
-How to use brace expansion (For creating entire directory structures in a single command)?
-* use mkdir command
-* then press / for the name of the directory you wanna create
-* then use curly brackets {} seperated with commas and input files you wanna create. (you can use multiple curly brackets seperated with commas and and the /)
-* Example: mkdir -p School/{F1,F2,F3}/{temp1,temp2}
+### How to work with multiple terminals open?
+ - By right-click on the desktop or a file manager window and choose "Open Terminal" to open a terminal in the current directory. 
+ - In one terminal you can keep using the commands and the other terminal you can use the ls command to help ensure a user is on the right track with the proper directory.
+### How to work with manual pages?
+ - first input man ls
+ - then use spacebar to navigate to other pages
+ - hit / to search then type search term and press Enter
+ - press 'q' to exit manual page.
+### How to parse (search) for specific words in the manual page?
+ - press / to search desired term
+ - then press enter to find term
+### How to redirect output (> and |)?
+ - Use the > operator to redirect  the output of a command to a file.  Example: ls > file_list.txt
+ - Use the | operator to  send the output of one command as input to another command. Example: ls | grep "txt"
+ - Then by combining both > and | together to redirect the output of a command and then pipe it to another command. -   - Example: ls -l > file_details.txt
+### How to append the output of a command to a file?
+ - To append the output of a command to a file, you can use the >> operator. This operator appends the output to the specified file. Example: command >> output.txt. 
+### How to use wildcards (For copying and moving multiple files at the same time)?
+ - Use cp command
+ - Use curly brackets {}, or regular brackets ()
+ - in brackets input file(s)
+ - Seperate wildcard input inside a brack with commas, and can also have multiple brackets.(this should move multiple files). 
+ - Example: cp {*.doc,*.pdf} ~
+### How to use brace expansion (For creating entire directory structures in a single command)?
+ - use mkdir command
+ - then press / for the name of the directory you wanna create
+ - then use curly brackets {} seperated with commas and input files you wanna create. (you can use multiple curly brackets seperated with commas and and the /)
+ - Example: mkdir -p School/{F1,F2,F3}/{temp1,temp2}
 
 
 
